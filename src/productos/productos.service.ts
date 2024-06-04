@@ -42,7 +42,7 @@ update(id:number, prodActualizar:ActualizarProductoDto){
             prod.categoria = prodActualizar.categoria;
             prod.año = prodActualizar.año;
             prod.precio = prodActualizar.precio;
-            prod.gama = prodActualizar.gama;
+
             return prod;
         }
 

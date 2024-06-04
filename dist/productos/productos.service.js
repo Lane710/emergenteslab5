@@ -50,7 +50,6 @@ let ProductosService = class ProductosService {
                 prod.categoria = prodActualizar.categoria;
                 prod.año = prodActualizar.año;
                 prod.precio = prodActualizar.precio;
-                prod.gama = prodActualizar.gama;
                 return prod;
             }
             return p;
